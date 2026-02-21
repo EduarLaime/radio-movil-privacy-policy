@@ -1,54 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Privacy Policy - Radio Movil Express La Bella</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad | Radio Movil Express la Bella</title>
+    <style>
+        /* =========================================
+           PALETA DE COLORES (Modifica estos valores)
+           ========================================= */
+        :root {
+            --primary-color: #FFC107; /* Color principal (Ej: Amarillo Taxi) */
+            --primary-dark: #FFA000;  /* Tono más oscuro del principal */
+            --secondary-color: #212121; /* Color secundario (Ej: Negro/Gris oscuro) */
+            --text-color: #333333;      /* Color del texto general */
+            --text-light: #666666;      /* Color de texto secundario */
+            --bg-color: #F8F9FA;        /* Color de fondo de la página */
+            --card-bg: #FFFFFF;         /* Color de fondo del contenedor del texto */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--primary-color);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: -2rem auto 2rem auto;
+            background-color: var(--card-bg);
+            padding: 2rem 3rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .last-updated {
+            font-style: italic;
+            color: var(--text-light);
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 1rem;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 10px;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        strong {
+            color: var(--secondary-color);
+        }
+
+        a {
+            color: var(--primary-dark);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Responsividad para celulares */
+        @media (max-width: 768px) {
+            .container {
+                margin: 0;
+                border-radius: 0;
+                padding: 1.5rem;
+                box-shadow: none;
+            }
+            header {
+                padding: 2rem 1rem;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p><strong>Last updated:</strong> July 21, 2025</p>
 
-  <p>This Privacy Policy explains how Radio Movil Express La Bella ("we", "our", or "us") collects, uses, and discloses your information when you use our mobile application.</p>
+    <header>
+        <h1>Radio Movil Express la Bella</h1>
+        <p>Política de Privacidad y Tratamiento de Datos</p>
+    </header>
 
-  <h2>1. Information We Collect</h2>
-  <p>We may collect the following types of data:</p>
-  <ul>
-    <li><strong>Personal Information:</strong> Name, email address, phone number</li>
-    <li><strong>Usage Data:</strong> App usage statistics, crash logs, and diagnostics</li>
-    <li><strong>Device Data:</strong> IP address, operating system, device type</li>
-    <li><strong>Location Data:</strong> With your consent, we collect location data for specific app functionalities</li>
-    <li><strong>Media Access:</strong> Access to camera and photo library (with permission) to upload profile photos or documents</li>
-    <li><strong>Contacts Access:</strong> If allowed, to enable in-app communication features</li>
-  </ul>
+    <div class="container">
+        <div class="last-updated">Última actualización: 20 de febrero de 2026</div>
 
-  <h2>2. How We Use Your Data</h2>
-  <p>We use the collected data to:</p>
-  <ul>
-    <li>Provide and maintain our services</li>
-    <li>Contact you with updates and important notifications</li>
-    <li>Enhance user experience and improve app performance</li>
-    <li>Ensure security and prevent fraud</li>
-    <li>Comply with legal obligations</li>
-  </ul>
+        <p>Esta Política de Privacidad describe cómo "Radio Movil Express la Bella" (en adelante "la aplicación", "nosotros" o "nuestro") recopila, utiliza y protege su información cuando utiliza nuestra aplicación móvil, tanto en su versión para pasajeros como para conductores.</p>
 
-  <h2>3. Location Data</h2>
-  <p>We collect location data to improve the accuracy of our services, such as dispatch and location tracking. We only access this data with your consent. You can enable or disable this in your device settings.</p>
+        <h2>1. Recopilación de Datos de Ubicación (Aviso Importante)</h2>
+        <p>Para que el servicio principal de transporte funcione, requerimos acceso a su ubicación de la siguiente manera:</p>
+        <ul>
+            <li><strong>Ubicación en segundo plano:</strong> Radio Movil Express la Bella recopila datos de ubicación para habilitar el seguimiento de los viajes en tiempo real y conectarte con las solicitudes/conductores más cercanos, incluso cuando la aplicación está cerrada o no se está utilizando.</li>
+            <li><strong>Servicios en primer plano:</strong> Utilizamos una notificación persistente (Servicio en primer plano) durante los viajes activos o mientras el conductor está disponible para asegurar que la conexión no se pierda y garantizar la seguridad del trayecto.</li>
+        </ul>
 
-  <h2>4. Data Sharing and Storage</h2>
-  <p>We do not sell your personal data. We may share your data with trusted third-party providers for analytics, authentication, or storage (e.g., Firebase, Google Cloud). All data is transmitted securely and only retained as long as necessary.</p>
+        <h2>2. Permisos de Android Utilizados</h2>
+        <p>Nuestra aplicación requiere los siguientes permisos para funcionar correctamente:</p>
+        <ul>
+            <li><strong>Ubicación (ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, ACCESS_BACKGROUND_LOCATION):</strong> Necesario para enviar o recibir solicitudes de taxi y trazar la ruta del viaje.</li>
+            <li><strong>Cámara (CAMERA):</strong> Se solicita únicamente cuando el usuario decide tomar una foto para su perfil de forma voluntaria.</li>
+            <li><strong>Almacenamiento (READ/WRITE_EXTERNAL_STORAGE, READ_MEDIA_IMAGES):</strong> Permite seleccionar imágenes de la galería para actualizar la foto de perfil.</li>
+            <li><strong>Internet y Red (INTERNET, ACCESS_NETWORK_STATE):</strong> Requerido para conectar la aplicación con nuestros servidores en tiempo real.</li>
+        </ul>
 
-  <h2>5. User Control</h2>
-  <p>You may review, update, or delete your information through the app or by contacting us at <strong>eduarlaime@outlook.com</strong>.</p>
+        <h2>3. Información que Recopilamos</h2>
+        <p>Dependiendo de su uso, podemos recopilar:</p>
+        <ul>
+            <li><strong>Información Personal:</strong> Nombre, número de teléfono y foto de perfil (utilizados para crear su cuenta mediante Firebase Authentication).</li>
+            <li><strong>Datos del Dispositivo:</strong> Tipo de dispositivo, sistema operativo e información de diagnóstico en caso de errores de la aplicación.</li>
+        </ul>
 
-  <h2>6. Children's Privacy</h2>
-  <p>We do not knowingly collect information from children under the age of 13. If you are a parent and believe your child has provided us with personal data, contact us immediately.</p>
+        <h2>4. Cómo Utilizamos y Compartimos su Información</h2>
+        <p>Los datos recopilados se utilizan exclusivamente para:</p>
+        <ul>
+            <li>Facilitar el servicio de transporte entre conductores y pasajeros.</li>
+            <li>Mejorar la seguridad de ambas partes al permitir la identificación.</li>
+            <li>Cumplir con los requisitos operativos del servicio.</li>
+        </ul>
+        <p><strong>No vendemos su información personal a terceros.</strong> Los datos se procesan de forma segura a través de proveedores de confianza como Google Cloud y Firebase (para autenticación, bases de datos y notificaciones Push).</p>
 
-  <h2>7. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. Updates will be posted here with a new "Last updated" date.</p>
+        <h2>5. Eliminación de Cuenta y Datos (Derechos del Usuario)</h2>
+        <p>Usted tiene derecho a solicitar la eliminación completa de su cuenta y todos los datos asociados en cualquier momento.</p>
+        <p>Para solicitar la eliminación de sus datos:</p>
+        <ol>
+            <li>Puede hacerlo contactándonos directamente al correo electrónico: <a href="mailto:eduarlaime@outlook.com">eduarlaime@outlook.com</a> indicando el número de teléfono registrado en la aplicación.</li>
+            <li>Al procesar su solicitud, eliminaremos su información personal de nuestros servidores (Firebase y bases de datos), a excepción de aquellos registros (como historiales de viajes) que debamos conservar temporalmente por obligaciones legales o de seguridad.</li>
+        </ol>
 
-  <h2>8. Contact Us</h2>
-  <p>If you have any questions, contact us at:</p>
-  <p><strong>Email:</strong> eduarlaime@outlook.com</p>
+        <h2>6. Privacidad Infantil</h2>
+        <p>Nuestra aplicación no está dirigida a menores de 13 años. No recopilamos intencionalmente información de menores. Si detectamos que un menor ha proporcionado información, esta será eliminada inmediatamente.</p>
+
+        <h2>7. Contacto</h2>
+        <p>Si tiene alguna pregunta sobre esta Política de Privacidad, puede contactarnos en:</p>
+        <ul>
+            <li><strong>Correo Electrónico:</strong> <a href="mailto:eduarlaime@outlook.com">eduarlaime@outlook.com</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Radio Movil Express la Bella. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
